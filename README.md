@@ -57,7 +57,8 @@ $P(A|A ∪ B) = \frac{P(A)}{P(A)+P(B)}$
 的機率”則為 ⅔ 。
 
 模擬結果：
-我們能使用 grid search 或 binary search 等方法，去定位合適的 alpha
+我們能使用 grid search 或 binary search 等方法，去定位合適的 alpha。
+
 使用 mt19937 算法提供偽隨機數，seed 定為 42 ，當 alpha = 1.2375，經過
 1,000,000 次抽獎後：
 + Ratio of Head Prize = 5.01%,
